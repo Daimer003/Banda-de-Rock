@@ -1,0 +1,123 @@
+@import url ('https://fonts.googleapis.com/css2? family = Cormorán: wght @ 700 & family = M + PLUS + Redondeado + 1c: wght @ 400; 500; 800 & display = swap' ); 
+
+body{
+    margin:0;}
+
+h1, h2{
+    font-family: 'Cormorán', sans-serif;}    
+
+section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 5;}
+
+section .header{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background: #000;
+    color: #fff;
+    border-bottom: 2px solid #2ECC71;}
+
+section .header h1{
+    margin-left: 20px;}    
+
+section .integrantes{
+    background: #000;
+    color: #fff;
+    display: grid;
+    justify-content: center;
+    align-content: center;}
+
+section .integrantes ul{
+    margin: 0;
+    padding: 0;}
+
+section .integrantes li{
+    list-style: none;
+    font-family:'M PLUS Rounded 1c', sans-serif;;}
+    
+section .reseña{
+    display: grid;
+    grid-column-start:2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;}
+    
+section .reseña h2, p{
+   text-align: center;}    
+ 
+section .reseña h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 10px 0px;}       
+
+section .reseña p{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 400;}    
+
+section .link{
+    background: #000;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/587d33a54402432706c7e9e7/1540313703879-RL27QC3QPDXB56TOB1GF/ke17ZwdGBToddI8pDm48kMi38tw7zkfDmGvlHU-hVvIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2drlbiNfk3EruvL6ooucMUl0-iAqFf4IJ2-8-m4UxZV6gG6v6ULRah83RgHXAWD5lbQ/Queen.jpg?format=2500w");
+    background-size: 40rem;
+    background-repeat: no-repeat;}
+ 
+section .link {
+    display: grid;
+    justify-content: center;
+    align-content: center;} 
+    
+section .link a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;}    
+
+section .link button{
+    background: #fff;
+    color: #fff;
+    width: 170px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;}
+    
+section .link button:hover{
+    background: #2ECC71;
+    color: #fff;}    
+
+section .reproductor{
+    background: #000;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;}
+
+.titulos_albums h3{
+    font-size: 22px;
+    margin-left: 20px;
+    font-family: 'Cormorán', sans-serif;}    
+    
+.albums{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1;
+    margin: 20px;
+    gap: 20px;}
+    
+.albums img{
+    display: block;
+    width: 100%;
+    height: auto;}    
+
+footer{
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows: 1;}
+
+footer a{
+    text-align: center;
+    padding: 30px;
+    font-family:'M PLUS Rounded 1c', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #1f1f1f;}
